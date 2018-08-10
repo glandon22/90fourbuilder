@@ -1,0 +1,19 @@
+{
+  "name": "90four-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "George Wright",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "util": "^0.11.0",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.2"
+  }
+}
