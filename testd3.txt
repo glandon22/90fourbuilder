@@ -1,15 +1,4 @@
-[ { title: 'What the Dog Saw and Other Adventures',
-    author: 'Malcolm Gladwell',
-    pages: '444',
-    rating: '4',
-    readMonth: 'December',
-    readYear: '2014',
-    bookLink:
-     'https://www.goodreads.com/book/show/6516450-what-the-dog-saw-and-other-adventures',
-    bookDescription:
-     'What is the difference between choking and panicking? Why are there dozens of varieties of mustard but only one variety of ketchup? What do football players teach us about how to hire teachers? What does hair dye tell us about the history of the 20th century?<br /><br />In the past decade, Malcolm Gladwell has written three books that have radically changed how we understand our world and ourselves: <i>The Tipping Point</i>, <i>Blink</i>, and <i>Outliers</i>. Now, in <i>What the Dog Saw</i>, he brings together, for the first time, the best of his writing from <i>The New Yorker</i> over the same period. <br /><br />Here you\'ll find the bittersweet tale of the inventor of the birth control pill, and the dazzling creations of pasta sauce pioneer Howard Moscowitz. Gladwell sits with Ron Popeil, the king of the American kitchen, as he sells rotisserie ovens, and divines the secrets of Cesar Millan, the "dog whisperer" who can calm savage animals with the touch of his hand. He explores intelligence tests and ethnic profiling and why it was that employers in Silicon Valley once tripped over themselves to hire the same college graduate.',
-    bookThumbnail: 'https://images.gr-assets.com/books/1344263875m/6516450.jpg' },
-  { title:
+[ { title:
      'The Upside of Irrationality: The Unexpected Benefits of Defying Logic at Work and at Home',
     author: 'Dan Ariely',
     pages: '334',
@@ -21,6 +10,17 @@
     bookDescription:
      'The provocative follow-up to the <i>New York Times</i> bestseller <i>Predictably Irrational</i> <br /><br />Why can large bonuses make CEOs less productive?<br />How can confusing directions actually help us?<br />Why is revenge so important to us?<br />Why is there such a big difference between what we <i>think</i> will make us happy and what <i>really</i> makes us happy? <br /><br />In his groundbreaking book <i>Predictably Irrational</i>, social scientist Dan Ariely revealed the multiple biases that lead us into making unwise decisions. Now, in <i>The Upside of Irrationality</i>, he exposes the surprising negative and positive effects irrationality can have on our lives. Focusing on our behaviors at work and in relationships, he offers new insights and eye-opening truths about what really motivates us on the job, how one unwise action can become a long-term habit, how we learn to love the ones we\'re with, and more. <br /><br />Drawing on the same experimental methods that made <i>Predictably Irrational</i> one of the most talked-about bestsellers of the past few years, Ariely uses data from his own original and entertaining experiments to draw arresting conclusions about how—and why—we behave the way we do. From our office attitudes, to our romantic relationships, to our search for purpose in life, Ariely explains how to break through our negative patterns of thought and behavior to make better decisions. <i>The Upside of Irrationality</i> will change the way we see ourselves at work and at home—and cast our irrational behaviors in a more nuanced light.',
     bookThumbnail: 'https://images.gr-assets.com/books/1268511997m/7815744.jpg' },
+  { title: 'Influence: The Psychology of Persuasion',
+    author: 'Robert B. Cialdini',
+    pages: '320',
+    rating: '3',
+    readMonth: 'December',
+    readYear: '2014',
+    bookLink: 'https://www.goodreads.com/book/show/28815.Influence',
+    bookDescription:
+     'التأثير, الكتاب الكلاسيكي حول عملية الإقناع, يشرح مبادئ علم النفس التي تقف وراء قول الناس «نعم» لأي طلب كان, كما يشرح كيفية تطبيق فهم هذه المبادئ. الدكتور روبرت سيالديني مدرّس خبير في حقلي التأثير والإقناع المتناميين بسرعة. إن هذا الكتاب الذي ينظر إليه في الأوساط العلمية نظرة مرموقة جداً؛ فهو حصيلة خمس وثلاثين سنة من الأبحاث الدقيقة المعتمدة على الأدلة القوية، إضافة إلى برنامج استمر ثلاث سنوات من الدراسة الميدانية لما يدفع الناس إلى تغيير سلوكهم. سوف نتعلم المبادئ الستة الأساسية, وكيف نستعملها كي نصبح مهرة في فن الإقناع- وكيف ندافع عن أنفسنا ضد من يحاول أن يستغلنا بإقناعنا بما يريد.',
+    bookThumbnail:
+     'https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png' },
   { title:
      'SuperFreakonomics: Global Cooling, Patriotic Prostitutes And Why Suicide Bombers Should Buy Life Insurance',
     author: 'Steven D. Levitt',
@@ -33,6 +33,19 @@
     bookDescription:
      'The New York Times best-selling Freakonomics was a worldwide sensation, selling over four million copies in thirty-five languages and changing the way we look at the world. Now, Steven D. Levitt and Stephen J. Dubner return with SuperFreakonomics, and fans and newcomers alike will find that the freakquel is even bolder, funnier, and more surprising than the first.<br /><br />Four years in the making, SuperFreakonomics asks not only the tough questions, but the unexpected ones: What\'s more dangerous, driving drunk or walking drunk? Why is chemotherapy prescribed so often if it\'s so ineffective? Can a sex change boost your salary?<br /><br />SuperFreakonomics challenges the way we think all over again, exploring the hidden side of everything with such questions as:<br /><br />How is a street prostitute like a department-store Santa?<br />Why are doctors so bad at washing their hands?<br />How much good do car seats do?<br />What\'s the best way to catch a terrorist?<br />Did TV cause a rise in crime?<br />What do hurricanes, heart attacks, and highway deaths have in common?<br />Are people hard-wired for altruism or selfishness?<br />Can eating kangaroo save the planet?<br />Which adds more value: a pimp or a Realtor?<br /><br />Levitt and Dubner mix smart thinking and great storytelling like no one else, whether investigating a solution to global warming or explaining why the price of oral sex has fallen so drastically. By examining how people respond to incentives, they show the world for what it really is – good, bad, ugly, and, in the final analysis, super freaky.<br /><br />Freakonomics has been imitated many times over – but only now, with SuperFreakonomics, has it met its match.',
     bookThumbnail: 'https://images.gr-assets.com/books/1308117804m/6402364.jpg' },
+  { title:
+     'Predictably Irrational: The Hidden Forces That Shape Our Decisions',
+    author: 'Dan Ariely',
+    pages: '280',
+    rating: '3',
+    readMonth: 'December',
+    readYear: '2014',
+    bookLink:
+     'https://www.goodreads.com/book/show/1713426.Predictably_Irrational',
+    bookDescription:
+     'Why do our headaches persist after taking a one-cent aspirin but disappear when we take a 50-cent aspirin?<br /><br />Why does recalling the Ten Commandments reduce our tendency to lie, even when we couldn\'t possibly be caught?<br /><br />Why do we splurge on a lavish meal but cut coupons to save twenty-five cents on a can of soup?<br /><br />Why do we go back for second helpings at the unlimited buffet, even when our stomachs are already full?<br /><br />And how did we ever start spending $4.15 on a cup of coffee when, just a few years ago, we used to pay less than a dollar?<br /><br />When it comes to making decisions in our lives, we think we\'re in control. We think we\'re making smart, rational choices. But are we?<br /><br />In a series of illuminating, often surprising experiments, MIT behavioral economist Dan Ariely refutes the common assumption that we behave in fundamentally rational ways. Blending everyday experience with groundbreaking research, Ariely explains how expectations, emotions, social norms, and other invisible, seemingly illogical forces skew our reasoning abilities.<br /><br />Not only do we make astonishingly simple mistakes every day, but we make the same "types" of mistakes, Ariely discovers. We consistently overpay, underestimate, and procrastinate. We fail to understand the profound effects of our emotions on what we want, and we overvalue what we already own. Yet these misguided behaviors are neither random nor senseless. They\'re systematic and predictable--making us "predictably" irrational.<br /><br />From drinking coffee to losing weight, from buying a car to choosing a romantic partner, Ariely explains how to break through these systematic patterns of thought to make better decisions. "Predictably Irrational" will change the way we interact with the world--one small decision at a time.',
+    bookThumbnail:
+     'https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png' },
   { title:
      'Freakonomics: A Rogue Economist Explores the Hidden Side of Everything (Freakonomics, #1)',
     author: 'Steven D. Levitt',

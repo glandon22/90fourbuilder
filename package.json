@@ -10,6 +10,7 @@
   "author": "George Wright",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.6.1",
     "express": "^4.16.3",
     "moment": "^2.22.2",
     "request": "^2.87.0",
