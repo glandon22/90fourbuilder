@@ -57,14 +57,14 @@ function createBooksPerYearGraph(masterBookData) {
 		chartData.books.push(booksPerYearData[year]);
 	}
 
-	console.log(chartData)
-	return booksPerYearData;
+	return chartData;
 }
 
 request.get(reqURLShelf, function(err, res, body) {
 	parseString(body, async function(err,res) {
 		const masterBookData = await cleanGoodReadsResponse(res.GoodreadsResponse['reviews'][0]['review']);
-		createBooksPerYearGraph(masterBookData);
+		const booksPerYearGraphData = await createBooksPerYearGraph(masterBookData);
+		console.log(masterBookData, booksPerYearGraphData);
 	});
 	
 });
