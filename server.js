@@ -35,7 +35,6 @@ function cleanGoodReadsResponse(booksArray) {
 //create a d3 array of abjects for books read per year linegraph
 function createBooksPerYearGraph(masterBookData) {
 	let booksPerYearData = {};
-	let d3Array = [];
 	for (let i = 0; i < masterBookData.length; i++) {
 		//year has already been added to object
 		if (booksPerYearData.hasOwnProperty(masterBookData[i]['readYear'])) {
@@ -47,15 +46,18 @@ function createBooksPerYearGraph(masterBookData) {
 			booksPerYearData[masterBookData[i]['readYear']] = 1;
 		}
 	}
-	//now convert this to something d3 can understand (ar array of objects)
+
+	let chartData = {
+		years: [],
+		books: []
+	};
+
 	for (year in booksPerYearData) {
-		let newYearObject = {};
-		newYearObject['year'] = year;
-		newYearObject['books'] = booksPerYearData[year];
-		d3Array.push(newYearObject);
+		chartData.years.push(year);
+		chartData.books.push(booksPerYearData[year]);
 	}
 
-	console.log(d3Array)
+	console.log(chartData)
 	return booksPerYearData;
 }
 
