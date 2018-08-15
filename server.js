@@ -15,11 +15,13 @@ function cleanGoodReadsResponse(booksArray) {
 		
 	//loop over response and only save the data points i need for each book
 	for (let i = 0; i < booksArray.length; i++) {
-		
+
 		cleanedBooksArray.push({
 			title: booksArray[i]['book'][0]['title'][0],
 			author: booksArray[i]['book'][0]['authors'][0]['author'][0]['name'][0],
-			pages: booksArray[i]['book'][0]['num_pages'][0],
+			//some books do not have a page number associated from goodreads
+			//if this is the case, set pages to a generic 250
+			pages: booksArray[i]['book'][0]['num_pages'][0] !== '' ? booksArray[i]['book'][0]['num_pages'][0] : 250,
 			rating: booksArray[i]['rating'][0],
 			readMonth: moment(booksArray[i]['read_at'][0],"ddd MMM DD hh:mm:ss ZZ YYYY").format('MMMM'),
 			readYear: moment(booksArray[i]['read_at'][0],"ddd MMM DD hh:mm:ss ZZ YYYY").format('YYYY'),
@@ -60,11 +62,39 @@ function createBooksPerYearGraph(masterBookData) {
 	return chartData;
 }
 
+function createPagesPerYearGraph(masterBookData) {
+	
+	let pagesPerYearData = {};
+
+	for (let i = 0; i < masterBookData.length; i++) {
+		
+		if (pagesPerYearData.hasOwnProperty(masterBookData[i]['readYear'])) {
+			pagesPerYearData[masterBookData[i]['readYear']] += parseInt(masterBookData[i]['pages']);
+		}
+
+		else {
+			pagesPerYearData[masterBookData[i]['readYear']] = parseInt(masterBookData[i]['pages']);
+		}
+	}
+
+	let chartData = {
+		years: [],
+		pages: []
+	};
+
+	for (year in pagesPerYearData) {
+		chartData.years.push(year);
+		chartData.pages.push(pagesPerYearData[year]);
+	}
+	console.log(chartData);
+	return chartData;
+}
+
 request.get(reqURLShelf, function(err, res, body) {
 	parseString(body, async function(err,res) {
 		const masterBookData = await cleanGoodReadsResponse(res.GoodreadsResponse['reviews'][0]['review']);
 		const booksPerYearGraphData = await createBooksPerYearGraph(masterBookData);
-		console.log(masterBookData, booksPerYearGraphData);
+		const pagesperYearGraphDaya = await createPagesPerYearGraph(masterBookData);
 	});
 	
 });
