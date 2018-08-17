@@ -1,13 +1,15 @@
 const configVars = require('./configvars.js');
+let books = require('./books.js').books;
 const KEY = configVars.KEY;
 const util = require('util');
 const _async = require('async');
-var moment = require('moment');
+const moment = require('moment');
 moment().format();
-var fs = require('fs');
-var parseString = require('xml2js').parseString;
-var request = require('request');
-var reqURLShelf = 'https://www.goodreads.com/review/list/38233116.xml?v=2&per_page=100&page=1&sort=date_read&shelf=read&key=' + KEY;
+
+const fs = require('fs');
+const parseString = require('xml2js').parseString;
+const request = require('request');
+const reqURLShelf = 'https://www.goodreads.com/review/list/38233116.xml?v=2&per_page=100&page=2&sort=date_read&shelf=read&key=' + KEY;
 
 //pull in goodreads shitty xml object and extract the info that i want
 function cleanGoodReadsResponse(booksArray) {
@@ -30,7 +32,7 @@ function cleanGoodReadsResponse(booksArray) {
 			bookThumbnail: booksArray[i]['book'][0]['image_url'][0]
 		});
 	}
-	//fs.writeFileSync('testd3.txt', util.inspect(cleanedBooksArray, {showHidden: false, depth: null}));
+	fs.writeFileSync('books2.txt', util.inspect(cleanedBooksArray, {showHidden: false, depth: null}));
 	return cleanedBooksArray;
 }
 

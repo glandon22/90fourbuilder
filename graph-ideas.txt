@@ -1,4 +1,0 @@
-page length v rating, rating y and length x
-cluster graph of books by author, only featured if more than one book read by them
-pages read by month and year
-books read by month and year

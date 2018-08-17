@@ -1,2 +1,7 @@
 configvars.js
 node_modules
+*.jpg
+*.jpeg
+*.png
+.sass-cache
+style.css.map
